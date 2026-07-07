@@ -19,3 +19,5 @@ footer_content: "© 2026 Payforms. All rights reserved. Documentation by Omotaje
 
 plugins:
   - jekyll-seo-tag 
+
+nav_enabled: true
