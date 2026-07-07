@@ -11,7 +11,7 @@ Payforms is an institutional ledger system designed for schools and universities
 
 ## Available Guides
 
-- [Admin Guide](Docs\admin-guide) — For school administrators and finance officers
+- [Admin Guide](<docs/admin-guide>) — For school administrators and finance officers
 
 ---
 
