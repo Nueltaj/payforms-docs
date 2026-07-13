@@ -1,7 +1,7 @@
 ---
 title: Accessing Payforms
-nav_order: 1
 parent: Admin Guide
+nav_order: 1
 ---
 
 # Section 1: Accessing Payforms
