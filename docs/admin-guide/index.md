@@ -9,7 +9,9 @@ has_children: true
 This guide covers all core workflows available to school administrators and finance officers on the Payforms platform.
 
 **Audience:** School administrators and finance officers
+
 **Platform:** [payforms.com.ng](https://www.payforms.com.ng)
+
 **Version:** 1.0 — June 2026
 
 ---
@@ -29,4 +31,4 @@ This guide covers all core workflows available to school administrators and fina
 
 ---
 
-*Prepared by: Omotaje Emmanuel O.* 
+*Prepared by: Omotaje Emmanuel O.*

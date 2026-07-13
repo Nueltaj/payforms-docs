@@ -20,6 +20,8 @@ color_scheme: light
 
 footer_content: "© 2026 Payforms. All rights reserved. Documentation by Omotaje Emmanuel O."
 
+nav_enabled: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
