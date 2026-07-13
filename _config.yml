@@ -13,6 +13,8 @@ aux_links_new_tab: true
 
 nav_sort: case_insensitive
 
+search_enabled: true  
+
 color_scheme: light
 
 footer_content: "© 2026 Payforms. All rights reserved. Documentation by Omotaje Emmanuel O."
@@ -20,3 +22,4 @@ footer_content: "© 2026 Payforms. All rights reserved. Documentation by Omotaje
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
+
