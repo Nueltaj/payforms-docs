@@ -1,7 +1,6 @@
 ---
 title: Admin Guide
-nav_order: 1
-parent: 
+nav_order: 2
 has_children: true
 ---
 
