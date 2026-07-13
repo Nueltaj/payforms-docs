@@ -25,4 +25,4 @@ nav_enabled: true
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
-  #- jekyll-include-cache
+  - jekyll-include-cache
