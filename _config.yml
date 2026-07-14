@@ -1,19 +1,15 @@
 title: Payforms Documentation
 description: Official documentation for Payforms — a payment and reconciliation platform for schools and universities in Nigeria.
-theme: just-the-docs
+author: Omotaje Emmanuel O.
+remote_theme: just-the-docs/just-the-docs
 
-url: https://nueltaj.github.io
-baseurl: /payforms-docs
+plugins:
+  - jekyll-remote-theme
+
+nav_enabled: true
 
 aux_links:
   "Payforms Website":
     - "https://www.payforms.com.ng"
 
-aux_links_new_tab: true
-nav_sort: case_insensitive
-color_scheme: light
-
 footer_content: "© 2026 Payforms. All rights reserved. Documentation by Omotaje Emmanuel O."
-
-plugins:
-  - jekyll-include-cache
