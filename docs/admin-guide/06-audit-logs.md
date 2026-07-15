@@ -8,6 +8,8 @@ parent: Admin Guide
 
 The **Audit Logs** section provides a timestamped record of all activity and system events carried out within your institution's Payforms account. To access it, click **Audit Logs** in the left navigation sidebar.
 
+![Figure 47: The Audit Logs page](/payforms-docs/assets/images/Picture47.png)
+
 Each entry in the log table contains the following columns:
 
 - **Timestamp** — The exact date and time the action was performed
@@ -32,4 +34,4 @@ You can narrow down the log entries using the following filters at the top of th
 
 ## Exporting Logs
 
-To download the audit log, click **Export Logs** in the top-right corner of the page. The log will be downloaded as a CSV file. 
+To download the audit log, click **Export Logs** in the top-right corner of the page. The log will be downloaded as a CSV file.

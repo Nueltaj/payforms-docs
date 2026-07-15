@@ -8,6 +8,8 @@ nav_order: 1
 
 To access Payforms, open your browser and navigate to **https://www.payforms.com.ng/**.
 
+![Figure 1: The Payforms homepage](/payforms-docs/assets/images/Picture1.png)
+
 ---
 
 ## If You Are Accessing Payforms for the First Time
@@ -22,12 +24,22 @@ To access Payforms, open your browser and navigate to **https://www.payforms.com
 
 Enter your password again in the **Confirm Password** field, then click **Create Organization**.
 
+![Figure 2: The Create Organisation registration page](/payforms-docs/assets/images/Picture2.png)
+
 **Step 3:** A verification email will be sent to your work email address from **noreply@payforms.com.ng**. Open the email and click the verification link to confirm your account.
 
 > **Note:** If you do not see the email in your inbox, check your spam or junk folder. The email is sent via a third-party mail service and may be filtered.
 
+![Figure 3: The email verification prompt](/payforms-docs/assets/images/Picture3.png)
+
+![Figure 4: The verification email as received in your inbox](/payforms-docs/assets/images/Picture4.png)
+
 **Step 4:** Once your email is verified, the **Email Verified** confirmation page will appear. Click **Go to Login**.
+
+![Figure 5: The Email Verified confirmation page](/payforms-docs/assets/images/Picture5.png)
 
 **Step 5:** On the login page, select the **Admin / Staff** tab. Enter your registered **Email Address** and **Password**, then click **Sign in as Admin/Staff**.
 
-You will be directed to the **Admin/Staff Dashboard**. 
+![Figure 6: The Admin / Staff login page](/payforms-docs/assets/images/Picture6.png)
+
+You will be directed to the **Admin/Staff Dashboard**.

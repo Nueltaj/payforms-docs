@@ -8,6 +8,8 @@ parent: Admin Guide
 
 The **Payments** section provides a centralised ledger of all transactions recorded across your institution's payment forms. To access it, click **Payments** in the left navigation sidebar.
 
+![Figure 24: The All Transactions page](/payforms-docs/assets/images/Picture24.png)
+
 At the top of the page, four summary cards display the following:
 
 - **Today's Volume** — The total amount collected today across all payment forms
@@ -44,6 +46,8 @@ You can search for a specific transaction using the **Search by Reference or Con
 
 To view the full details of a transaction, click **View** in the **Actions** column of the relevant record.
 
+![Figure 26: The Transaction Details screen](/payforms-docs/assets/images/Picture26.png)
+
 The **Transaction Details** screen displays the following:
 
 - **Status** — The current payment status (e.g. Failed, Paid)
@@ -55,4 +59,4 @@ The **Transaction Details** screen displays the following:
 Two buttons are available at the bottom of the screen:
 
 - **View History** — Displays a timestamped log of all status changes for this transaction
-- **View Form** — Opens the payment form through which the transaction was submitted 
+- **View Form** — Opens the payment form through which the transaction was submitted

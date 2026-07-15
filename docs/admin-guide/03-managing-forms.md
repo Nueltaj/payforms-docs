@@ -8,6 +8,8 @@ parent: Admin Guide
 
 The **Forms** section allows you to create, organise, and manage all payment forms for your institution. To access it, click **Forms** in the left navigation sidebar.
 
+![Figure 9: The Forms management page](/payforms-docs/assets/images/Picture9.png)
+
 The Forms page displays three tabs:
 
 - **All** — Lists every form created under your account
@@ -28,6 +30,8 @@ The Forms page displays three tabs:
 - **Description** — A brief description of what this form is for, visible to payers
 - **Internal Note** — Private notes for administrative use, not visible to payers
 
+![Figure 10: The Create New Form page](/payforms-docs/assets/images/Picture10.png)
+
 **Step 3:** Under **Payment Settings**, configure the following:
 
 - **Payment Type** — Select either **Fixed Amount** (a set payment value) or **Variable Amount** (the payer enters the amount)
@@ -35,6 +39,10 @@ The Forms page displays three tabs:
 - **Allow Partial Payments** — Enable this option to allow payers to pay less than the full amount due
 
 **Step 4:** Click **Create Form** to save the form. It will appear as a card on the Forms page.
+
+![Figure 11: The Forms management page with a form card](/payforms-docs/assets/images/Picture11.png)
+
+![Figure 12: A form card closeup](/payforms-docs/assets/images/Picture12.png)
 
 ---
 
@@ -56,6 +64,8 @@ To **deactivate**, **duplicate**, or **delete** a form, click the three-dot icon
 
 Click **Fields** on a form card to open the field management page. This is where you configure the information your form will collect from payers.
 
+![Figure 13: The form Fields page](/payforms-docs/assets/images/Picture13.png)
+
 > **Important:** For payment processing to function correctly, every form must include an **Email** field (type: EMAIL) and a **Full Name** field (type: TEXT, with a label containing the word "name").
 
 The following action buttons are available at the top of the Fields page:
@@ -71,7 +81,11 @@ The following action buttons are available at the top of the Fields page:
 
 **Step 2:** Enter a **Field Label** (e.g. Full Name, Email Address).
 
+![Figure 15: The Add New Field panel](/payforms-docs/assets/images/Picture15.png)
+
 **Step 3:** Select a **Field Type** from the dropdown. Available types are: **Short Text**, **Email**, **Number**, **Dropdown**, and **Long Text**.
+
+![Figure 16: The Field Type dropdown options](/payforms-docs/assets/images/Picture16.png)
 
 **Step 4:** Check **Required field** if this field must be completed before the form can be submitted.
 
@@ -79,11 +93,15 @@ The following action buttons are available at the top of the Fields page:
 
 > **Note:** For **Dropdown** fields, enter the available options in the **Options** field, separated by semicolons.
 
+![Figure 14: The Fields list showing added form fields](/payforms-docs/assets/images/Picture14.png)
+
 ### Editing a Field
 
 **Step 1:** Hover over the field you want to edit. A pencil icon and a red trash icon will appear.
 
 **Step 2:** Click the pencil icon. The **Edit Field** panel will appear.
+
+![Figure 17: The Edit Field panel](/payforms-docs/assets/images/Picture17.png)
 
 **Step 3:** Make the required changes, then click **Save Changes**. Click **Cancel** to discard.
 
@@ -105,6 +123,8 @@ To change the display order of fields, click the upward or downward arrow next t
 
 The **Widget** feature allows you to embed a payment form directly into an external website. To access it, open a form and click **Widget** from the action buttons at the top of the Fields page.
 
+![Figure 18: The Widget Configuration page](/payforms-docs/assets/images/Picture18.png)
+
 ### Step 1: Verify Form Selection
 
 The **Form Selection** panel confirms which form the widget is being generated for. The **Form Slug** and **Payment URL** are displayed here for reference and cannot be edited from this screen.
@@ -116,6 +136,8 @@ The **Form Selection** panel confirms which form the widget is being generated f
 
 ### Step 3: Configure Appearance
 
+![Figure 19: Appearance and Dimensions settings](/payforms-docs/assets/images/Picture19.png)
+
 - **Theme** — Select **Light** or **Dark** to match your site's colour scheme
 - **Primary Color** — Enter a hex colour code to match your institution's branding (default: #188ace)
 - **Button Text** — Set the label on the payment button (default: Pay Now)
@@ -126,6 +148,8 @@ The **Form Selection** panel confirms which form the widget is being generated f
 - **Min Height (px)** — Set the minimum height in pixels (default: 400)
 
 ### Step 5: Configure Behavior
+
+![Figure 20: Behavior and Advanced settings (v1)](/payforms-docs/assets/images/Picture20.png)
 
 - **Callback URL** — Enter a URL to redirect payers after a successful payment. This field is optional.
 - **Auto-redirect after payment** — Enable this option to automatically send payers to the callback URL upon payment completion.
@@ -144,8 +168,10 @@ Once configuration is complete, copy the generated code from the right panel and
 - **Script Embed** — The recommended method
 - **Iframe Embed** — An alternative for platforms that do not support script tags
 
+![Figure 23: The Legacy Widget Configuration page](/payforms-docs/assets/images/Picture23.png)
+
 > **Note:** If you need to handle payment events programmatically, add the provided `window.addEventListener` code to your page. Available events: `ready`, `submitted`, `payment_initialized`, `error`, and `resize`. This option is available for v1 only.
 
 ### Legacy Widget
 
-To use the Legacy embed method, select **Legacy** under **Widget Version**. The **Advanced Settings** panel is not available for Legacy. Unless your website has a specific compatibility requirement, use **v1 (Recommended)**. 
+To use the Legacy embed method, select **Legacy** under **Widget Version**. The **Advanced Settings** panel is not

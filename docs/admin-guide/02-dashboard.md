@@ -8,6 +8,8 @@ parent: Admin Guide
 
 The **Dashboard** is the first screen displayed upon logging in to Payforms. It provides a real-time overview of your institution's payment activity and serves as the central hub for navigating all platform features.
 
+![Figure 7: The Admin/Staff Dashboard](/payforms-docs/assets/images/Picture7.png)
+
 ---
 
 ## Summary Cards
@@ -24,6 +26,8 @@ At the top of the dashboard, four cards display your institution's key financial
 ## Payment Trends
 
 Below the summary cards, the **Payment Trends** chart visualises revenue by status over the trailing seven days. Transactions are categorised as Paid, Pending, and Failed. This chart updates automatically as new payment data is recorded.
+
+![Figure 8: The Payment Trends chart](/payforms-docs/assets/images/Picture8.png)
 
 ---
 
@@ -57,4 +61,4 @@ The left sidebar provides access to all major sections of the platform:
 - **Reports** — Generate and export financial reports
 - **Settings** — Configure your institution's account preferences
 - **Offline Payments** — Record payments made outside the platform
-- **+ Create Form** — Shortcut to launch the Form Builder directly 
+- **+ Create Form** — Shortcut to launch the Form Builder directly

@@ -1,4 +1,4 @@
- ---
+---
 title: Troubleshooting and FAQs
 nav_order: 10
 parent: Admin Guide

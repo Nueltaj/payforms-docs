@@ -14,6 +14,8 @@ The **Settings** section allows you to configure your institution's account pref
 
 The **General Settings** page manages your institution's core account information. Complete the following fields and click **Save Changes** to update:
 
+![Figure 51: The General Settings page](/payforms-docs/assets/images/Picture51.png)
+
 - **Organization Name** — The name of your institution as it will appear across the platform
 - **Contact Email** — The primary email address for your institution's account
 - **Subdomain** — A unique identifier that forms your institution's portal URL (e.g. school.www.payforms.com.ng)
@@ -25,10 +27,14 @@ The **General Settings** page manages your institution's core account informatio
 
 The **Integrations & Keys Settings** page is where you connect your Paystack account to enable online payment processing. Enter the following details and click **Save Keys**:
 
+![Figure 52: The Integrations & Keys Settings page](/payforms-docs/assets/images/Picture52.png)
+
 - **Public Key** — Your Paystack public API key, found in your Paystack Dashboard under **Settings → API Keys**
 - **Secret Key** — Your Paystack secret API key. Keep this key secure and never expose it in client-side code.
 
 Under **Webhook URL**, copy the provided Payforms webhook URL and add it to your Paystack dashboard under **Settings → Webhooks**. This enables Paystack to send payment notifications to Payforms in real time. You may also enter a custom webhook URL if required.
+
+![Figure 53: The Test Connection panel](/payforms-docs/assets/images/Picture53.png)
 
 Click **Test Connection** to verify that your API keys are working correctly before going live. Click **Save Keys** to save.
 
@@ -37,6 +43,8 @@ Click **Test Connection** to verify that your API keys are working correctly bef
 ## 9.3 Appearance
 
 The **Appearance Settings** page allows you to upload your institution's logo, which will appear on payment receipts and email notifications sent to payers.
+
+![Figure 54: The Appearance Settings page](/payforms-docs/assets/images/Picture54.png)
 
 To upload a logo, drag and drop your image file into the upload area or click **Browse Files**. Accepted formats are PNG, JPG, and SVG, with a maximum file size of 2MB. The recommended dimensions are 200×200px.
 
@@ -50,7 +58,11 @@ Alternatively, if your logo is hosted online, enter the image URL in the **Logo 
 
 The **Team Settings** page allows you to manage the staff members who have access to your institution's Payforms account. Each member is listed with their **Name**, **Role**, and **Status**.
 
+![Figure 55: The Team Settings page](/payforms-docs/assets/images/Picture55.png)
+
 To add a new team member, click **Invite Member**. The **Invite Team Member** screen will appear with the following fields:
+
+![Figure 56: The Invite Team Member screen](/payforms-docs/assets/images/Picture56.png)
 
 - **First Name** and **Last Name**
 - **Email Address** — The address the invitation will be sent to
@@ -63,6 +75,8 @@ Click **Send Invite** to dispatch the invitation, or **Cancel** to discard.
 
 The **Security Settings** page allows you to manage account access and authentication for your Payforms account.
 
+![Figure 57: The Security Settings page](/payforms-docs/assets/images/Picture57.png)
+
 - **Two-Factor Authentication (2FA)** — Enable this toggle to add an extra layer of security to your account. When enabled, a verification step will be required each time you log in.
 - **Change Password** — Click **Change** to update your account password.
 - **Sessions** — Your current active session is displayed here. Click **Sign out all other sessions** to remotely terminate any other active sessions on your account.
@@ -72,6 +86,8 @@ The **Security Settings** page allows you to manage account access and authentic
 ## 9.6 Notifications
 
 The **Notifications Settings** page controls which events trigger email alerts to your administrative account.
+
+![Figure 58: The Notifications Settings page](/payforms-docs/assets/images/Picture58.png)
 
 Under **Payment Notifications**, toggle each option on or off as needed:
 
@@ -91,6 +107,8 @@ Click **Save Preferences** to apply your changes.
 
 The **Payments Settings** page controls how payments are collected across your institution's forms.
 
+![Figure 59: The Payments Settings page](/payforms-docs/assets/images/Picture59.png)
+
 Under **Partial Payments**:
 
 - **Partial Payment Limit (%)** — Set the maximum percentage of the total amount that can be paid as a partial payment. The accepted range is 0 to 100. The default value is 100.
@@ -106,6 +124,8 @@ Click **Save Preferences** to apply your changes.
 ## 9.8 Billing
 
 The **Billing Settings** page displays your institution's current subscription plan and usage metrics.
+
+![Figure 60: The Billing Settings page](/payforms-docs/assets/images/Picture60.png)
 
 Under **Current Plan**, your active plan and renewal date are shown. Two options are available:
 

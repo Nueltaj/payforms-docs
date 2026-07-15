@@ -8,6 +8,8 @@ parent: Admin Guide
 
 The **Reports** section provides a detailed breakdown of your institution's financial performance across all payment forms. To access it, click **Reports** in the left navigation sidebar.
 
+![Figure 48: The Reports & Analytics page — Overview tab](/payforms-docs/assets/images/Picture48.png)
+
 You can filter all report data by date range using the date fields in the top-right corner of the page. Click **Export** to download the currently displayed report data as a file.
 
 The Reports section is organised into three tabs: **Overview**, **Form Performance**, and **Group Contributions**.
@@ -40,4 +42,4 @@ The **Form Performance** tab provides a breakdown of payment activity at the ind
 
 ## Group Contributions
 
-The **Group Contributions** tab shows payment activity broken down by contact group, allowing you to track how much each group has contributed to total collections. 
+The **Group Contributions** tab shows payment activity broken down by contact group, allowing you to track how much each group has contributed to total collections.
